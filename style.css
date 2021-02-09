@@ -9,7 +9,7 @@
     width: 100%;
 }
 .search-bar{
-    height: 100px;
+    height: 120px;
     /* border: 2px solid red; */
 }
 .search-contant{
@@ -78,10 +78,11 @@ img{
     height: 300px;
     border-radius: 20px 20px 0px 0px;
     width: 450px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
+    box-shadow: 3px 5px 8px gray;
 }
 .country-name{
-    color: red;
+    
     font-size: 40px;
   text-transform: uppercase;
 }
@@ -89,9 +90,10 @@ img{
     position: relative;
     top: 10px;
     left: 30px;
+    color: blue;
 }
 #population{
-    color: red;
+    color: purple;
     position: relative;
     top: 40px;
     left: 30px;
@@ -102,13 +104,21 @@ img{
 position: relative;
 left: 30px;
 top: 70px;
+color: darkred;
 }
 #language{
     position: relative;
     left: 30px;
     top: 100px;
+    color: brown;
 }
 span{
     position: relative;
     left: 50px;
+}
+h3{
+    position: relative;
+    left: 120px;
+    top: 10px;
+    color: green;
 }
