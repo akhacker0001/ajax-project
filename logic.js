@@ -34,10 +34,6 @@ button.addEventListener('click',function(){
 })
 
 
-// button.addEventListener("click",function(){
-//     var iner = Event;
-//     console.log(iner)
-// })
 
 
 
